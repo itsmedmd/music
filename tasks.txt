@@ -1,5 +1,11 @@
 ---------------------general---------------------
 change config theme and background colors
+
+implement lazyloading
+
+change name to japanese artists/bands
+
+compress images
 ---------------------general---------------------
 
 ---------------------aws-------------------------
