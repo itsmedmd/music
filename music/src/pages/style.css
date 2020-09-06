@@ -92,13 +92,37 @@ html, body {
 }
 
 .page-content article section {
-  position: relative;
-  bottom: 0;
+  width: 40%;
+  height: 100%;
 }
 
-.page-content article section img {
+.page-content article aside {
+  background-color: #0a000a;
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.page-content article aside img {
   width: 100%;
-  vertical-align: bottom;
+  max-height: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+}
+
+.page-content article.image-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.page-content article.image-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -146,9 +170,6 @@ html, body {
   .page-content .page-header section {
     padding-left: 20px;
   }
-}
-
-@media only screen and (max-width: 520px) {
   .page-content .page-header section .song:first-child {
     margin-top: 100px;
   }

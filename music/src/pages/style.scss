@@ -92,13 +92,31 @@ html, body {
         }
 
         section {
+            width: 40%;
+            height: 100%;
+        }
+
+        aside {
+            background-color: $background-color;
+            width: 60%;
+            height: 100%;
             position: relative;
-            bottom: 0;
 
             img {
                 width: 100%;
-                vertical-align: bottom;
+                max-height: 100%;
+                position: absolute;
+                bottom: 0;
+                margin: auto;
             }
+        }
+
+        &.image-right {
+            flex-direction: row;
+        }
+
+        &.image-left {
+            flex-direction: row-reverse;
         }
     }
 }
@@ -159,11 +177,9 @@ html, body {
 @media only screen and (max-width: 520px) {
     .page-content .page-header section {
         padding-left: 20px;
-    }
-}
 
-@media only screen and (max-width: 520px) {
-    .page-content .page-header section .song:first-child {
-        margin-top: 100px;
+        .song:first-child {
+            margin-top: 100px;
+        }
     }
 }

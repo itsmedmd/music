@@ -4,6 +4,10 @@ change config theme and background colors
 implement lazyloading
 
 compress images
+
+also add japanese letters
+
+make article pictures small sizes with picture element
 ---------------------general---------------------
 
 ---------------------aws-------------------------
@@ -14,19 +18,5 @@ compress images
 
 ---------------------ie--------------------------
 ---------------------ie--------------------------
-
-artists:
-*kiki vivi lily
-maybe*MASS OF THE FERMENTING DREGS
-*asian kung-fu generation
-*frederic band
-*the pillows band
-*rionos
-maybe*Galileo Galilei
-*LiSA
-*TK from Ling tosite sigure
-*Mrs. Green Apple
-*aimer
-*Hikaru Utada
 
 gatsby build --prefix-paths
