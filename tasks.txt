@@ -3,8 +3,6 @@ change config theme and background colors
 
 implement lazyloading
 
-change name to japanese artists/bands
-
 compress images
 ---------------------general---------------------
 
@@ -16,5 +14,19 @@ compress images
 
 ---------------------ie--------------------------
 ---------------------ie--------------------------
+
+artists:
+*kiki vivi lily
+maybe*MASS OF THE FERMENTING DREGS
+*asian kung-fu generation
+*frederic band
+*the pillows band
+*rionos
+maybe*Galileo Galilei
+*LiSA
+*TK from Ling tosite sigure
+*Mrs. Green Apple
+*aimer
+*Hikaru Utada
 
 gatsby build --prefix-paths
