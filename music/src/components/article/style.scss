@@ -1,0 +1,278 @@
+.page-content article {
+    // fomare
+    &.a1 {
+        background-color: rgb(162, 197, 216);
+
+        header h1 {
+            color: rgb(52, 160, 202);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(9, 144, 197);
+
+                &:hover {
+                    color: rgb(13, 102, 138);
+                }
+            }
+        }
+    }
+
+    // kiki vivi lily
+    &.a2 {
+        background-color: rgb(255, 165, 175);
+
+        header h1 {
+            color: rgb(226, 99, 111);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(202, 76, 89);
+
+                &:hover {
+                    color: rgb(172, 44, 57);
+                }
+            }
+        }
+    }
+
+    // uri nakayama
+    &.a3 {
+        background-color: rgb(56, 12, 5);
+
+        header h1 {
+            color: rgb(139, 50, 77);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(168, 57, 91);
+
+                &:hover {
+                    color: rgb(194, 41, 87);
+                }
+            }
+        }
+    }
+
+    // frederic
+    &.a4 {
+        background-color: rgb(216, 231, 228);
+
+        header h1 {
+            color: rgb(150, 32, 89);
+        }
+
+        section {
+            h2 {
+                //color: white;
+                color: rgb(63, 63, 63);
+            }
+
+            a {
+                color: rgb(167, 34, 98);
+
+                &:hover {
+                    color: rgb(192, 28, 107);
+                }
+            }
+        }
+    }
+
+    // otogivanashi
+    &.a5 {
+        background-color: rgb(0, 0, 0);
+
+        header h1 {
+            color: rgb(68, 190, 140);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(86, 192, 148);
+
+                &:hover {
+                    color: rgb(111, 228, 179);
+                }
+            }
+        }
+    }
+
+    // mrs. green apple
+    &.a6 {
+        background-color: rgb(255, 165, 175);
+
+        header h1 {
+            color: rgb(255, 255, 255);
+        }
+
+        section {
+            h2 {
+                color: rgb(218, 73, 88);
+            }
+
+            a {
+                color: rgb(255, 255, 255);
+
+                &:hover {
+                    color: rgb(240, 240, 240);
+                }
+            }
+        }
+    }
+
+    // the cheserasera
+    &.a7 {
+        background-color: rgb(59, 64, 73);
+
+        header h1 {
+            color: rgb(104, 114, 128);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(126, 137, 156);
+
+                &:hover {
+                    color: rgb(146, 159, 182);
+                }
+            }
+        }
+    }
+
+    // utada hikaru
+    &.a8 {
+        background-color: rgb(214, 214, 214);
+
+        header h1 {
+            color: black;
+        }
+
+        section {
+            h2 {
+                color: rgb(255, 255, 255);
+            }
+
+            a {
+                color: black;
+
+                &:hover {
+                    color: rgb(56, 56, 56);
+                }
+            }
+        }
+    }
+
+    // the pillows
+    &.a9 {
+        background-color: rgb(22, 16, 14);
+
+        header h1 {
+            color: rgb(121, 83, 71);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(143, 94, 77);
+
+                &:hover {
+                    color: rgb(161, 95, 70);
+                }
+            }
+        }
+    }
+
+    // aimer
+    &.a10 {
+        background-color: rgb(49, 39, 18);
+
+        header h1 {
+            color: rgb(133, 94, 16);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(170, 126, 36);
+
+                &:hover {
+                    color: rgb(199, 139, 18);
+                }
+            }
+        }
+    }
+
+    // kanako ito
+    &.a11 {
+        background-color: rgb(2, 12, 21);
+
+        header h1 {
+            color: rgb(34, 129, 212);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(60, 137, 204);
+
+                &:hover {
+                    color: rgb(0, 136, 255);
+                }
+            }
+        }
+    }
+
+    // indigo la end
+    &.a12 {
+        background-color: rgb(38, 38, 28);
+
+        header h1 {
+            color: rgb(185, 156, 97);
+        }
+
+        section {
+            h2 {
+                color: white;
+            }
+
+            a {
+                color: rgb(179, 150, 94);
+
+                &:hover {
+                    color: rgb(216, 178, 102);
+                }
+            }
+        }
+    }
+}

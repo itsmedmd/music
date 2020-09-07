@@ -1,6 +1,12 @@
 ---------------------general---------------------
 change config theme and background colors
 
+change body/page-content background color
+
+fix header image looks bad
+
+maybe change header image
+
 implement lazyloading
 
 compress images
@@ -8,15 +14,21 @@ compress images
 also add japanese letters
 
 make article pictures small sizes with picture element
+
+maybe add youtube and website links to target _blank
+
+make everything responsive
 ---------------------general---------------------
 
 ---------------------aws-------------------------
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
+test horizontal, ios, samsung
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
+test ie
 ---------------------ie--------------------------
 
 gatsby build --prefix-paths

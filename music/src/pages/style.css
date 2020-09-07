@@ -29,7 +29,7 @@ html, body {
 .page-content .page-header {
   width: 100vw;
   height: 100vh;
-  background-color: #001444;
+  background-color: #000a20;
 }
 
 .page-content .page-header aside {
@@ -70,8 +70,8 @@ html, body {
 }
 
 .page-content article {
-  width: 100vw;
-  height: 100vh;
+  height: 120vh;
+  padding-bottom: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,20 +84,33 @@ html, body {
   position: absolute;
   z-index: 1;
   width: 100%;
-  text-align: center;
 }
 
 .page-content article header h1 {
   color: white;
+  font-size: 10rem;
 }
 
 .page-content article section {
   width: 40%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-content article section h2 {
+  font-size: 2rem;
+}
+
+.page-content article section h2 a {
+  text-decoration: none;
 }
 
 .page-content article aside {
-  background-color: #0a000a;
   width: 60%;
   height: 100%;
   position: relative;
@@ -107,7 +120,7 @@ html, body {
   width: 100%;
   max-height: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: 30px;
   margin: auto;
 }
 
@@ -118,11 +131,47 @@ html, body {
           flex-direction: row;
 }
 
+.page-content article.image-right header {
+  text-align: right;
+}
+
+.page-content article.image-right section {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.page-content article.image-right section h2 {
+  padding: 0 0 0 40px;
+}
+
+.page-content article.image-right section h2:last-child {
+  padding: 0 20px 0 40px;
+}
+
 .page-content article.image-left {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.page-content article.image-left section {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.page-content article.image-left section h2 {
+  padding: 0 40px 0 0;
+}
+
+.page-content article.image-left section h2:first-child {
+  padding: 0 40px 0 20px;
+}
+
+.page-content article.image-left header {
+  text-align: left;
 }
 
 @media only screen and (max-width: 1280px) {

@@ -1,5 +1,5 @@
 $background-color: rgb(10, 0, 10);
-$header-background-color: rgb(0, 20, 68);
+$header-background-color: rgb(0, 10, 32);
 
 * {
     box-sizing: border-box;
@@ -75,8 +75,8 @@ html, body {
     }
 
     article {
-        width: 100vw;
-        height: 100vh;
+        height: 120vh;
+        padding-bottom: 10vh;
         display: flex;
         align-items: flex-end;
 
@@ -84,39 +84,81 @@ html, body {
             position: absolute;
             z-index: 1;
             width: 100%;
-            text-align: center;
 
             h1 {
                 color: white;
+                font-size: 10rem;
             }
         }
 
         section {
             width: 40%;
             height: 100%;
+            display: flex;
+            align-items: center;
+
+            h2 {
+                font-size: 2rem;
+
+                a {
+                    text-decoration: none;
+                }
+            }
         }
 
         aside {
-            background-color: $background-color;
             width: 60%;
             height: 100%;
             position: relative;
 
             img {
+                // change here maybeeeeeeeeeeeeeeeeeeee
                 width: 100%;
                 max-height: 100%;
                 position: absolute;
-                bottom: 0;
+                bottom: 30px;
                 margin: auto;
             }
         }
 
         &.image-right {
             flex-direction: row;
+            
+            header {
+                text-align: right;
+            }
+
+            section {
+                justify-content: flex-start;
+
+                h2 {
+                    padding: 0 0 0 40px;
+
+                    &:last-child {
+                        padding: 0 20px 0 40px;
+                    }
+                }
+            }
         }
 
         &.image-left {
             flex-direction: row-reverse;
+            
+            section {
+                justify-content: flex-end;
+
+                h2 {
+                    padding: 0 40px 0 0;
+
+                    &:first-child {
+                        padding: 0 40px 0 20px;
+                    }
+                }
+            }
+
+            header {
+                text-align: left;
+            }
         }
     }
 }
