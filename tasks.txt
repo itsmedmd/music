@@ -17,6 +17,10 @@ make article pictures small sizes with picture element
 
 maybe add youtube and website links to target _blank
 
+header when hover animation + link to the page part
+
+make header divs responsive
+
 make everything responsive
 ---------------------general---------------------
 

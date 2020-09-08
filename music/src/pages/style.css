@@ -7,7 +7,6 @@
 
 html, body {
   font-family: Tahoma, Verdana, sans-serif;
-  background-color: #0a000a;
 }
 
 .page-content {
@@ -29,49 +28,52 @@ html, body {
 .page-content .page-header {
   width: 100vw;
   height: 100vh;
-  background-color: #000a20;
-}
-
-.page-content .page-header aside {
-  width: 40vw;
-  height: 100vh;
-  position: absolute;
-  left: 0;
-}
-
-.page-content .page-header aside img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.9;
+  background: url("../../static/bike.jpg") no-repeat no-repeat;
+  background-size: cover;
 }
 
 .page-content .page-header section {
-  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
   height: 100vh;
-  position: absolute;
-  right: 0;
-  padding-left: 100px;
-  background-color: rgba(10, 0, 10, 0.3);
+  padding: 0 100px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.page-content .page-header section .song {
+.page-content .page-header section .song-column {
+  width: 410px;
+  margin-top: 10%;
+  padding: 30px 15px 30px 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.page-content .page-header section .song-column:first-child {
+  margin-right: 60px;
+}
+
+.page-content .page-header section .song-column .song {
   font-family: monospace;
   color: white;
-  font-size: 20px;
-  margin-bottom: 4px;
+  font-size: 26px;
+  margin-bottom: 5px;
 }
 
-.page-content .page-header section .song:first-child {
-  margin-top: 30%;
-}
-
-.page-content .page-header section .song .song-name .song-number {
+.page-content .page-header section .song-column .song .song-name .song-number {
   margin-right: 16px;
 }
 
 .page-content article {
   height: 120vh;
   padding-bottom: 10vh;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,14 +83,32 @@ html, body {
 }
 
 .page-content article header {
+  z-index: 2;
   position: absolute;
-  z-index: 1;
   width: 100%;
 }
 
 .page-content article header h1 {
-  color: white;
-  font-size: 10rem;
+  font-size: 12rem;
+}
+
+.page-content article header.header-top {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  top: 0;
+  opacity: 0.05;
+}
+
+.page-content article header.header-top h1 {
+  width: 200vw;
+  font-size: 24rem;
+  overflow: hidden;
+}
+
+.page-content article header.header-bottom h1 {
+  word-break: break-all;
 }
 
 .page-content article section {
@@ -100,6 +120,7 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 3;
 }
 
 .page-content article section h2 {
@@ -111,6 +132,7 @@ html, body {
 }
 
 .page-content article aside {
+  z-index: 1;
   width: 60%;
   height: 100%;
   position: relative;
@@ -133,6 +155,10 @@ html, body {
 
 .page-content article.image-right header {
   text-align: right;
+}
+
+.page-content article.image-right header.header-top {
+  text-align: left;
 }
 
 .page-content article.image-right section {
@@ -175,51 +201,42 @@ html, body {
 }
 
 @media only screen and (max-width: 1280px) {
-  .page-content .page-header aside {
-    width: 50vw;
-  }
   .page-content .page-header section {
-    width: 50vw;
-    padding-left: 50px;
+    padding: 0 50px;
   }
-  .page-content .page-header section .song:first-child {
-    margin-top: 40%;
+  .page-content .page-header section .song-column {
+    margin-top: 8%;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .page-content .page-header aside {
-    width: 80vw;
-    margin: 0 10vw;
-  }
-  .page-content .page-header aside img {
-    opacity: 0.4;
-  }
   .page-content .page-header section {
-    width: 100vw;
-    padding-left: 45%;
-    padding-right: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .page-content .page-header section .song:first-child {
-    margin-top: 30%;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 830px) {
+  .page-content .page-header section .song-column .song {
+    font-size: 23px;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .page-content .page-header section {
-    padding-left: 30%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  .page-content .page-header aside {
-    width: 100vw;
-    margin: 0;
+  .page-content .page-header section .song-column:first-child {
+    margin-right: 0;
   }
 }
 
 @media only screen and (max-width: 520px) {
-  .page-content .page-header section {
-    padding-left: 20px;
-  }
-  .page-content .page-header section .song:first-child {
+  .page-content .page-header section .song-column {
     margin-top: 100px;
   }
 }
