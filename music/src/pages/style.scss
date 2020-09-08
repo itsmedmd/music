@@ -71,6 +71,7 @@ html, body {
         position: relative;
         display: flex;
         align-items: flex-end;
+        overflow: hidden;
 
         header {
             z-index: 2;
@@ -84,12 +85,20 @@ html, body {
             &.header-top {
                 user-select: none;
                 top: 0;
-                opacity: 0.05;
+
+                span {
+                    position: absolute;
+                    font-size: 6rem;
+                    font-weight: bold;
+                    opacity: 0.8;
+                    margin-left: 24px;
+                }
 
                 h1 {
                     width: 200vw;
                     font-size: 24rem;
                     overflow: hidden;
+                    opacity: 0.05;
                 }
             }
 
@@ -110,6 +119,10 @@ html, body {
 
                 a {
                     text-decoration: none;
+                }
+
+                &:first-child a {
+                    display: block;
                 }
             }
         }

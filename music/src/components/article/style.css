@@ -2,7 +2,7 @@
   background-color: #a2c5d8;
 }
 
-.page-content article.a1 header h1 {
+.page-content article.a1 header h1, .page-content article.a1 header span {
   color: #34a0ca;
 }
 
@@ -22,7 +22,7 @@
   background-color: #ffa5af;
 }
 
-.page-content article.a2 header h1 {
+.page-content article.a2 header h1, .page-content article.a2 header span {
   color: #e2636f;
 }
 
@@ -42,7 +42,7 @@
   background-color: #380c05;
 }
 
-.page-content article.a3 header h1 {
+.page-content article.a3 header h1, .page-content article.a3 header span {
   color: #8b324d;
 }
 
@@ -62,7 +62,7 @@
   background-color: #d8e7e4;
 }
 
-.page-content article.a4 header h1 {
+.page-content article.a4 header h1, .page-content article.a4 header span {
   color: #962059;
 }
 
@@ -82,7 +82,7 @@
   background-color: black;
 }
 
-.page-content article.a5 header h1 {
+.page-content article.a5 header h1, .page-content article.a5 header span {
   color: #44be8c;
 }
 
@@ -102,7 +102,7 @@
   background-color: #ffa5af;
 }
 
-.page-content article.a6 header h1 {
+.page-content article.a6 header h1, .page-content article.a6 header span {
   color: white;
 }
 
@@ -122,7 +122,7 @@
   background-color: #3b4049;
 }
 
-.page-content article.a7 header h1 {
+.page-content article.a7 header h1, .page-content article.a7 header span {
   color: #687280;
 }
 
@@ -142,7 +142,7 @@
   background-color: #d6d6d6;
 }
 
-.page-content article.a8 header h1 {
+.page-content article.a8 header h1, .page-content article.a8 header span {
   color: black;
 }
 
@@ -162,7 +162,7 @@
   background-color: #16100e;
 }
 
-.page-content article.a9 header h1 {
+.page-content article.a9 header h1, .page-content article.a9 header span {
   color: #795347;
 }
 
@@ -182,7 +182,7 @@
   background-color: #312712;
 }
 
-.page-content article.a10 header h1 {
+.page-content article.a10 header h1, .page-content article.a10 header span {
   color: #855e10;
 }
 
@@ -202,7 +202,7 @@
   background-color: #020c15;
 }
 
-.page-content article.a11 header h1 {
+.page-content article.a11 header h1, .page-content article.a11 header span {
   color: #1d70b8;
 }
 
@@ -222,7 +222,7 @@
   background-color: #26261c;
 }
 
-.page-content article.a12 header h1 {
+.page-content article.a12 header h1, .page-content article.a12 header span {
   color: #b99c61;
 }
 

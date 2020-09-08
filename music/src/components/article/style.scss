@@ -3,8 +3,10 @@
     &.a1 {
         background-color: rgb(162, 197, 216);
 
-        header h1 {
-            color: rgb(52, 160, 202);
+        header {
+            h1, span {
+                color: rgb(52, 160, 202);
+            }
         }
 
         section {
@@ -26,8 +28,10 @@
     &.a2 {
         background-color: rgb(255, 165, 175);
 
-        header h1 {
-            color: rgb(226, 99, 111);
+        header {
+            h1, span {
+                color: rgb(226, 99, 111);
+            }
         }
 
         section {
@@ -49,8 +53,10 @@
     &.a3 {
         background-color: rgb(56, 12, 5);
 
-        header h1 {
-            color: rgb(139, 50, 77);
+        header {
+            h1, span {
+                color: rgb(139, 50, 77)
+            };
         }
 
         section {
@@ -72,8 +78,10 @@
     &.a4 {
         background-color: rgb(216, 231, 228);
 
-        header h1 {
-            color: rgb(150, 32, 89);
+        header {
+            h1, span {
+                color: rgb(150, 32, 89);
+            }
         }
 
         section {
@@ -96,8 +104,10 @@
     &.a5 {
         background-color: rgb(0, 0, 0);
 
-        header h1 {
-            color: rgb(68, 190, 140);
+        header {
+            h1, span {
+                color: rgb(68, 190, 140);
+            }
         }
 
         section {
@@ -119,8 +129,10 @@
     &.a6 {
         background-color: rgb(255, 165, 175);
 
-        header h1 {
-            color: rgb(255, 255, 255);
+        header {
+            h1, span {
+                color: rgb(255, 255, 255);
+            }
         }
 
         section {
@@ -142,8 +154,10 @@
     &.a7 {
         background-color: rgb(59, 64, 73);
 
-        header h1 {
-            color: rgb(104, 114, 128);
+        header {
+            h1, span {
+                color: rgb(104, 114, 128);
+            }
         }
 
         section {
@@ -165,8 +179,10 @@
     &.a8 {
         background-color: rgb(214, 214, 214);
 
-        header h1 {
-            color: black;
+        header {
+            h1, span {
+                color: black;
+            }
         }
 
         section {
@@ -188,8 +204,10 @@
     &.a9 {
         background-color: rgb(22, 16, 14);
 
-        header h1 {
-            color: rgb(121, 83, 71);
+        header {
+            h1, span {
+                color: rgb(121, 83, 71);
+            }
         }
 
         section {
@@ -211,8 +229,10 @@
     &.a10 {
         background-color: rgb(49, 39, 18);
 
-        header h1 {
-            color: rgb(133, 94, 16);
+        header {
+            h1, span {
+                color: rgb(133, 94, 16);
+            }
         }
 
         section {
@@ -234,8 +254,10 @@
     &.a11 {
         background-color: rgb(2, 12, 21);
 
-        header h1 {
-            color: rgb(29, 112, 184);
+        header {
+            h1, span {
+                color: rgb(29, 112, 184);
+            }
         }
 
         section {
@@ -257,8 +279,10 @@
     &.a12 {
         background-color: rgb(38, 38, 28);
 
-        header h1 {
-            color: rgb(185, 156, 97);
+        header {
+            h1, span {
+                color: rgb(185, 156, 97);
+            }
         }
 
         section {

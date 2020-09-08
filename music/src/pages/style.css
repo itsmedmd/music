@@ -80,6 +80,7 @@ html, body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  overflow: hidden;
 }
 
 .page-content article header {
@@ -98,13 +99,21 @@ html, body {
       -ms-user-select: none;
           user-select: none;
   top: 0;
-  opacity: 0.05;
+}
+
+.page-content article header.header-top span {
+  position: absolute;
+  font-size: 6rem;
+  font-weight: bold;
+  opacity: 0.8;
+  margin-left: 24px;
 }
 
 .page-content article header.header-top h1 {
   width: 200vw;
   font-size: 24rem;
   overflow: hidden;
+  opacity: 0.05;
 }
 
 .page-content article header.header-bottom h1 {
@@ -129,6 +138,10 @@ html, body {
 
 .page-content article section h2 a {
   text-decoration: none;
+}
+
+.page-content article section h2:first-child a {
+  display: block;
 }
 
 .page-content article aside {
