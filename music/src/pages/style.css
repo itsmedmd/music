@@ -334,6 +334,12 @@ html, body {
   }
 }
 
+@media only screen and (min-width: 465px) and (max-width: 565px) {
+  .page-content article aside img {
+    margin-bottom: -70px;
+  }
+}
+
 @media only screen and (max-width: 520px) {
   .page-content .page-header section .song-column {
     margin-top: 100px;
