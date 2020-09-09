@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <div className="page-content">
       <Link to=".." className="go-back-to-homepage">GO BACK TO HOME PAGE</Link>
+      <Link to="#page-start" className="go-back-to-start">Go to top</Link>
       <Header />
 
       <Article id="1" className="image-right a4" imgSrc="frederic.jpg" imgAlt="Frederic">

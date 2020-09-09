@@ -21,10 +21,28 @@ html, body {
         font-weight: bold;
         text-decoration: none;
         color: white;
+        z-index: 101;
+    }
+
+    .go-back-to-start {
+        position: fixed;
+        right: 25px;
+        bottom: 15px;
+        padding: 16px;
+        background-color: rgb(16, 89, 117);
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
         z-index: 99;
+
+        &:hover {
+            background-color: rgb(2, 105, 146);
+        }
     }
 
     .page-header {
+        position: relative;
+        z-index: 100;
         width: 100vw;
         height: 100vh;
         background: url("../../static/bike.jpg") no-repeat no-repeat;

@@ -5,7 +5,7 @@ import "./style.css";
 export default function Header() {
 
   return (
-    <header className="page-header" >
+    <header id="page-start" className="page-header" >
         <section>
             <div className="song-column">
               <Song href="#1" number="01." text="Frederic" />

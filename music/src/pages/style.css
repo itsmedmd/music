@@ -22,10 +22,28 @@ html, body {
   font-weight: bold;
   text-decoration: none;
   color: white;
+  z-index: 101;
+}
+
+.page-content .go-back-to-start {
+  position: fixed;
+  right: 25px;
+  bottom: 15px;
+  padding: 16px;
+  background-color: #105975;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
   z-index: 99;
 }
 
+.page-content .go-back-to-start:hover {
+  background-color: #026992;
+}
+
 .page-content .page-header {
+  position: relative;
+  z-index: 100;
   width: 100vw;
   height: 100vh;
   background: url("../../static/bike.jpg") no-repeat no-repeat;
