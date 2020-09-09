@@ -1,0 +1,71 @@
+/*
+    this file is for setting each header anchor tag color
+*/
+
+.page-content .page-header section div {
+    // first block
+    &:nth-child(1) .song {
+        // frederic
+        &:nth-child(1) .song-name:hover {
+            color: rgb(150, 32, 89);
+        }
+        
+        // mrs. green apple
+        &:nth-child(2) .song-name:hover {
+            color: rgb(226, 99, 111);
+        }
+    
+        // otogivanashi
+        &:nth-child(3) .song-name:hover {
+            color: rgb(68, 190, 140);
+        }
+    
+        // utada hikaru
+        &:nth-child(4) .song-name:hover {
+            color: rgb(100, 100, 100);
+        }
+    
+        // fomare
+        &:nth-child(5) .song-name:hover {
+            color: rgb(52, 160, 202);
+        }
+    
+        // uri nakayama
+        &:nth-child(6) .song-name:hover {
+            color: rgb(139, 50, 77)
+        }
+    }
+
+    // second block
+    &:nth-child(2) .song {
+        // aimer
+        &:nth-child(1) .song-name:hover {
+            color: rgb(133, 94, 16);
+        }
+    
+        // the cheserasera
+        &:nth-child(2) .song-name:hover {
+            color: rgb(104, 114, 128);
+        }
+    
+        // kiki vivi lily
+        &:nth-child(3) .song-name:hover {
+            color: rgb(226, 99, 111);
+        }
+    
+        // the pillows
+        &:nth-child(4) .song-name:hover {
+            color: rgb(121, 83, 71);
+        }
+    
+        // kanako ito
+        &:nth-child(5) .song-name:hover {
+            color: rgb(29, 112, 184);
+        }
+    
+        // indigo la end
+        &:nth-child(6) .song-name:hover {
+            color: rgb(185, 156, 97);
+        }
+    }
+}

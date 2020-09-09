@@ -1,5 +1,6 @@
 import React from "react";
 import Song from "../song";
+import "./style.css";
 
 export default function Header() {
 
@@ -7,20 +8,20 @@ export default function Header() {
     <header className="page-header" >
         <section>
             <div className="song-column">
-              <Song number="01." text="FOMARE" />
-              <Song number="02." text="kiki vivi lily" />
-              <Song number="03." text="Aimer" />
-              <Song number="04." text="Otogivanashi" />
-              <Song number="05." text="Mrs. Green Apple" />
-              <Song number="06." text="Uri Nakaya" />
+              <Song href="#1" number="01." text="Frederic" />
+              <Song href="#2" number="02." text="Mrs. Green Apple" />
+              <Song href="#3" number="03." text="Otogivanashi" />
+              <Song href="#4" number="04." text="Utada Hikaru" />
+              <Song href="#5" number="05." text="FOMARE" />
+              <Song href="#6" number="06." text="Uri Nakayama" />
             </div>
             <div className="song-column">
-              <Song number="07." text="The Cheserasera" />
-              <Song number="08." text="Utada Hikaru" />
-              <Song number="09." text="The Pillows" />
-              <Song number="10." text="Frederic" />
-              <Song number="11." text="Kanako Ito" />
-              <Song number="12." text="Indigo la End" />
+              <Song href="#7" number="07." text="Aimer" />
+              <Song href="#8" number="08." text="The Cheserasera" />
+              <Song href="#9" number="09." text="kiki vivi lily" />
+              <Song href="#10" number="10." text="The Pillows" />
+              <Song href="#11" number="11." text="Kanako Ito" />
+              <Song href="#12" number="12." text="Indigo la End" />
             </div>
         </section>
     </header>

@@ -61,9 +61,13 @@ html, body {
 
 .page-content .page-header section .song-column .song {
   font-family: monospace;
-  color: white;
   font-size: 26px;
   margin-bottom: 5px;
+}
+
+.page-content .page-header section .song-column .song .song-name {
+  text-decoration: none;
+  color: white;
 }
 
 .page-content .page-header section .song-column .song .song-name .song-number {
@@ -259,9 +263,6 @@ html, body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .page-content article .header-top h1 {
-    display: none;
-  }
   .page-content article section {
     width: 100%;
     -webkit-box-align: start;
@@ -306,6 +307,9 @@ html, body {
   }
   .page-content article {
     height: 768px;
+  }
+  .page-content article .header-top h1 {
+    display: none;
   }
   .page-content article section {
     padding-top: 130px;

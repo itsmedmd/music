@@ -11,7 +11,7 @@ export default function Home() {
       <Link to=".." className="go-back-to-homepage">GO BACK TO HOME PAGE</Link>
       <Header />
 
-      <Article className="image-right a4" imgSrc="frederic.jpg" imgAlt="Frederic">
+      <Article id="1" className="image-right a4" imgSrc="frederic.jpg" imgAlt="Frederic">
         <header className="header-top">
           <span>01.</span>
           <h1>Frederic</h1>
@@ -23,7 +23,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-right a6" imgSrc="mrs-green-apple.jpg" imgAlt="Mrs. Green Apple">
+      <Article id="2" className="image-right a6" imgSrc="mrs-green-apple.jpg" imgAlt="Mrs. Green Apple">
         <header className="header-top">
           <span>02.</span>
           <h1>Mrs. Green Apple</h1>
@@ -35,7 +35,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-left a5" imgSrc="otogivanashi.jpg" imgAlt="Otogivanashi">
+      <Article id="3" className="image-left a5" imgSrc="otogivanashi.jpg" imgAlt="Otogivanashi">
         <header className="header-top">
           <span>03.</span>
           <h1>Otogivanashi</h1>
@@ -47,7 +47,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-left a8" imgSrc="utada-hikaru.jpg" imgAlt="Utada Hikaru">
+      <Article id="4" className="image-left a8" imgSrc="utada-hikaru.jpg" imgAlt="Utada Hikaru">
         <header className="header-top">
           <span>04.</span>
           <h1>Utada Hikaru</h1>
@@ -59,7 +59,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-right a1" imgSrc="fomare.jpg" imgAlt="FOMARE">
+      <Article id="5" className="image-right a1" imgSrc="fomare.jpg" imgAlt="FOMARE">
         <header className="header-top">
           <span>05.</span>
           <h1>FOMARE</h1>
@@ -71,7 +71,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-right a3" imgSrc="uri-nakayama.jpg" imgAlt="Uri Nakayama">
+      <Article id="6" className="image-right a3" imgSrc="uri-nakayama.jpg" imgAlt="Uri Nakayama">
         <header className="header-top">
           <span>06.</span>
           <h1>Uri Nakayama</h1>
@@ -83,7 +83,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-left a10" imgSrc="aimer.jpg" imgAlt="Aimer">
+      <Article id="7" className="image-left a10" imgSrc="aimer.jpg" imgAlt="Aimer">
         <header className="header-top">
           <span>07.</span>
           <h1>Aimer</h1>
@@ -95,7 +95,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-left a7" imgSrc="the-cheserasera.jpg" imgAlt="The Cheserasera">
+      <Article id="8" className="image-left a7" imgSrc="the-cheserasera.jpg" imgAlt="The Cheserasera">
         <header className="header-top">
           <span>08.</span>
           <h1>The Cheserasera</h1>
@@ -107,7 +107,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-right a2" imgSrc="kiki-vivi-lily.jpg" imgAlt="kiki vivi lily">
+      <Article id="9" className="image-right a2" imgSrc="kiki-vivi-lily.jpg" imgAlt="kiki vivi lily">
         <header className="header-top">
           <span>09.</span>
           <h1>kiki vivi lily</h1>
@@ -119,7 +119,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-right a9" imgSrc="the-pillows.jpg" imgAlt="The Pillows">
+      <Article id="10" className="image-right a9" imgSrc="the-pillows.jpg" imgAlt="The Pillows">
         <header className="header-top">
           <span>10.</span>
           <h1>The Pillows</h1>
@@ -131,7 +131,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-left a11" imgSrc="kanako-ito.jpg" imgAlt="Kanako Ito">
+      <Article id="11" className="image-left a11" imgSrc="kanako-ito.jpg" imgAlt="Kanako Ito">
         <header className="header-top">
           <span>11.</span>
           <h1>Kanako Ito</h1>
@@ -143,7 +143,7 @@ export default function Home() {
         </section>
       </Article>
 
-      <Article className="image-left a12" imgSrc="indigo-la-end.jpg" imgAlt="Indigo la End">
+      <Article id="12" className="image-left a12" imgSrc="indigo-la-end.jpg" imgAlt="Indigo la End">
         <header className="header-top">
           <span>12.</span>
           <h1>Indigo la End</h1>

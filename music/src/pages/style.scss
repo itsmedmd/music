@@ -51,11 +51,13 @@ html, body {
 
                 .song {
                     font-family: monospace;
-                    color: white;
                     font-size: 26px;
                     margin-bottom: 5px;
     
                     .song-name {
+                        text-decoration: none;
+                        color: white;
+
                         .song-number {
                             margin-right: 16px;
                         }
@@ -255,10 +257,6 @@ html, body {
         }
 
         article {
-            .header-top h1 {
-                display: none;
-            }
-
             section {
                 width: 100%;
                 align-items: flex-start;
@@ -306,6 +304,10 @@ html, body {
 
         article {
             height: 768px;
+
+            .header-top h1 {
+                display: none;
+            }
 
             section {
                 padding-top: 130px;

@@ -1,0 +1,51 @@
+/*
+    this file is for setting each header anchor tag color
+*/
+.page-content .page-header section div:nth-child(1) .song:nth-child(1) .song-name:hover {
+  color: #962059;
+}
+
+.page-content .page-header section div:nth-child(1) .song:nth-child(2) .song-name:hover {
+  color: #e2636f;
+}
+
+.page-content .page-header section div:nth-child(1) .song:nth-child(3) .song-name:hover {
+  color: #44be8c;
+}
+
+.page-content .page-header section div:nth-child(1) .song:nth-child(4) .song-name:hover {
+  color: #646464;
+}
+
+.page-content .page-header section div:nth-child(1) .song:nth-child(5) .song-name:hover {
+  color: #34a0ca;
+}
+
+.page-content .page-header section div:nth-child(1) .song:nth-child(6) .song-name:hover {
+  color: #8b324d;
+}
+
+.page-content .page-header section div:nth-child(2) .song:nth-child(1) .song-name:hover {
+  color: #855e10;
+}
+
+.page-content .page-header section div:nth-child(2) .song:nth-child(2) .song-name:hover {
+  color: #687280;
+}
+
+.page-content .page-header section div:nth-child(2) .song:nth-child(3) .song-name:hover {
+  color: #e2636f;
+}
+
+.page-content .page-header section div:nth-child(2) .song:nth-child(4) .song-name:hover {
+  color: #795347;
+}
+
+.page-content .page-header section div:nth-child(2) .song:nth-child(5) .song-name:hover {
+  color: #1d70b8;
+}
+
+.page-content .page-header section div:nth-child(2) .song:nth-child(6) .song-name:hover {
+  color: #b99c61;
+}
+/*# sourceMappingURL=style.css.map */
