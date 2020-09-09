@@ -24,6 +24,7 @@
 
 .page-content article.a2 header h1, .page-content article.a2 header span {
   color: #e2636f;
+  display: inline;
 }
 
 .page-content article.a2 section h2 {
@@ -224,6 +225,7 @@
 
 .page-content article.a12 header h1, .page-content article.a12 header span {
   color: #b99c61;
+  display: inline;
 }
 
 .page-content article.a12 section h2 {
@@ -236,5 +238,143 @@
 
 .page-content article.a12 section a:hover {
   color: #d8b266;
+}
+
+/*
+    a1 - fomare
+    a2 - kiki vivi lily
+    a3 - uri nakayama
+    a4 - frederic
+    a5 - otogivanashi
+    a6 - mrs. green apple
+    a7 - the cheserasera
+    a8 - utada hikaru
+    a9 - the pillows
+    a10 - aimer
+    a11 - kanako ito
+    a12 - indigo la end
+*/
+@media only screen and (max-width: 1650px) {
+  .page-content .a6 .header-bottom h1, .page-content .a7 .header-bottom h1 {
+    font-size: 9rem;
+  }
+}
+
+@media only screen and (max-width: 1360px) {
+  .page-content .a3 .header-bottom h1, .page-content .a12 .header-bottom h1 {
+    font-size: 9rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .page-content .a2 .header-bottom h1, .page-content .a9 .header-bottom h1, .page-content .a11 .header-bottom h1 {
+    font-size: 11rem;
+  }
+  .page-content .a5 .header-bottom h1, .page-content .a8 .header-bottom h1 {
+    font-size: 9rem;
+  }
+  .page-content .a6 .header-bottom h1, .page-content .a7 .header-bottom h1 {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .page-content .a2 .header-bottom h1, .page-content .a2 span, .page-content .a12 .header-bottom h1, .page-content .a12 span {
+    display: block;
+  }
+  .page-content .a4 .header-bottom h1 {
+    font-size: 11rem;
+  }
+  .page-content .a1 .header-bottom h1 {
+    font-size: 10rem;
+  }
+  .page-content .a5 .header-bottom h1 {
+    font-size: 7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-content .a10 .header-bottom h1 {
+    font-size: 10rem;
+  }
+  .page-content .a2 .header-bottom h1 {
+    font-size: 7rem;
+    text-align: left;
+  }
+  .page-content .a9 .header-bottom h1, .page-content .a11 .header-bottom h1 {
+    font-size: 8rem;
+  }
+  .page-content .a1 .header-bottom h1, .page-content .a4 .header-bottom h1 {
+    font-size: 7rem;
+  }
+  .page-content .a6 .header-bottom h1, .page-content .a9 .header-bottom h1, .page-content .a11 .header-bottom h1, .page-content .a12 .header-bottom h1 {
+    font-size: 6rem;
+  }
+  .page-content .a3 .header-bottom h1, .page-content .a8 .header-bottom h1 {
+    font-size: 5rem;
+  }
+  .page-content .a5 .header-bottom h1, .page-content .a7 .header-bottom h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .page-content .a10 .header-bottom h1 {
+    font-size: 7rem;
+  }
+  .page-content .a2 .header-bottom h1 {
+    font-size: 6rem;
+  }
+  .page-content .a1 .header-bottom h1, .page-content .a4 .header-bottom h1, .page-content .a9 .header-bottom h1 {
+    font-size: 5rem;
+  }
+  .page-content .a12 .header-bottom h1 {
+    font-size: 4.5rem;
+  }
+  .page-content .a3 .header-bottom h1, .page-content .a6 .header-bottom h1, .page-content .a8 .header-bottom h1, .page-content .a11 .header-bottom h1 {
+    font-size: 4rem;
+  }
+  .page-content .a7 .header-bottom h1 {
+    font-size: 3.5rem;
+  }
+  .page-content .a5 .header-bottom h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .page-content .a10 .header-bottom h1 {
+    font-size: 6.5rem;
+  }
+  .page-content .a1 .header-bottom h1 {
+    font-size: 4rem;
+  }
+  .page-content .a3 .header-bottom h1 {
+    font-size: 3.5rem;
+  }
+  .page-content .a7 .header-bottom h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .page-content .a3 section a:first-child, .page-content .a5 section a:first-child, .page-content .a6 section a:first-child, .page-content .a7 section a:first-child {
+    font-size: 1.4rem;
+  }
+  .page-content .a2 .header-bottom h1, .page-content .a10 .header-bottom h1 {
+    font-size: 5rem;
+  }
+  .page-content .a9 .header-bottom h1, .page-content .a12 .header-bottom h1 {
+    font-size: 4rem;
+  }
+  .page-content .a1 .header-bottom h1, .page-content .a4 .header-bottom h1 {
+    font-size: 3.5rem;
+  }
+  .page-content .a3 .header-bottom h1 {
+    font-size: 2.8rem;
+  }
+  .page-content .a5 .header-bottom h1, .page-content .a7 .header-bottom h1 {
+    font-size: 2.4rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

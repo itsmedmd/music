@@ -16,11 +16,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rappers`,
-        short_name: `Rappers`,
+        name: `Japanese Musicians`,
+        short_name: `JP Music`,
         start_url: `/`,
-        background_color: `#201A1A`,
-        theme_color: `#CD890A`,
+        background_color: `#191919`,
+        theme_color: `#191919`,
         display: `standalone`,
         icons: [
           {

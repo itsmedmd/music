@@ -112,7 +112,7 @@ export default function Home() {
           <span>09.</span>
           <h1>kiki vivi lily</h1>
         </header>
-        <header className="header-bottom"><h1>kiki vivi lily</h1></header>
+        <header className="header-bottom"><h1>kiki </h1><h1>vivi lily</h1></header>
         <section>
           <h2>Learn more: <a href="https://kikivivilily.com/" >kikivivilily.com</a></h2>
           <h2>Listen to<br/> her music: <br/> <a href="https://www.youtube.com/channel/UC2qqLtG-gC_2MHj_-t_F13w" >YouTube</a></h2>
@@ -148,7 +148,7 @@ export default function Home() {
           <span>12.</span>
           <h1>Indigo la End</h1>
         </header>
-        <header className="header-bottom"><h1>Indigo la End</h1></header>
+        <header className="header-bottom"><h1>Indigo </h1><h1>la End</h1></header>
         <section>
           <h2>Learn more: <a href="https://indigolaend.com" >indigolaend.com</a></h2>
           <h2>Listen to<br/> their music: <br/> <a href="https://www.youtube.com/channel/UCXKSbzihU5cu0U4qbbjB3GA" >YouTube</a></h2>

@@ -42,8 +42,8 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 0 100px;
   background-color: rgba(0, 0, 0, 0.5);
 }
@@ -113,11 +113,7 @@ html, body {
   width: 200vw;
   font-size: 24rem;
   overflow: hidden;
-  opacity: 0.05;
-}
-
-.page-content article header.header-bottom h1 {
-  word-break: break-all;
+  opacity: 0.04;
 }
 
 .page-content article section {
@@ -213,12 +209,47 @@ html, body {
   text-align: left;
 }
 
+@media only screen and (min-width: 1921px) {
+  .page-content .go-back-to-homepage {
+    top: 15px;
+    left: 15px;
+    padding: 30px;
+    font-size: 1.5rem;
+  }
+  .page-content .page-header section .song-column {
+    width: 600px;
+    padding: 60px 30px 60px 60px;
+  }
+  .page-content .page-header section .song-column .song {
+    font-size: 36px;
+  }
+  .page-content article header h1 {
+    font-size: 14rem;
+  }
+  .page-content article header.header-top span {
+    font-size: 10rem;
+    margin-left: 36px;
+  }
+  .page-content article header.header-top h1 {
+    font-size: 36rem;
+  }
+  .page-content article section h2 {
+    font-size: 3.5rem;
+  }
+}
+
 @media only screen and (max-width: 1280px) {
+  .page-content .page-header {
+    height: 960px;
+  }
   .page-content .page-header section {
     padding: 0 50px;
   }
   .page-content .page-header section .song-column {
     margin-top: 8%;
+  }
+  .page-content article {
+    height: 960px;
   }
 }
 
@@ -227,6 +258,30 @@ html, body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .page-content article .header-top h1 {
+    display: none;
+  }
+  .page-content article section {
+    width: 100%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .page-content article section h2 {
+    margin-top: 16px;
+  }
+  .page-content article aside {
+    width: 100%;
+    position: absolute;
+  }
+  .page-content article aside img {
+    bottom: 0;
+  }
+  .page-content article.image-right section {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
 }
 
@@ -237,6 +292,9 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
+  .page-content .page-header {
+    height: 768px;
+  }
   .page-content .page-header section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -246,11 +304,67 @@ html, body {
   .page-content .page-header section .song-column:first-child {
     margin-right: 0;
   }
+  .page-content article {
+    height: 768px;
+  }
+  .page-content article section {
+    padding-top: 130px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .page-content article.image-right section, .page-content article.image-left section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .page-content article.image-right section h2, .page-content article.image-left section h2 {
+    padding: 0 40px 0 40px;
+  }
+  .page-content article.image-right section h2:first-child, .page-content article.image-left section h2:first-child {
+    padding: 0 40px 20px 40px;
+  }
 }
 
 @media only screen and (max-width: 520px) {
   .page-content .page-header section .song-column {
     margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .page-content .page-header section {
+    padding: 0;
+  }
+  .page-content .page-header section .song-column {
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 60px;
+  }
+  .page-content article.image-right.a6 section h2, .page-content article.image-right.a6 section h2:first-child, .page-content article.image-right.a7 section h2, .page-content article.image-right.a7 section h2:first-child, .page-content article.image-left.a6 section h2, .page-content article.image-left.a6 section h2:first-child, .page-content article.image-left.a7 section h2, .page-content article.image-left.a7 section h2:first-child {
+    padding: 0 40px 20px 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .page-content .page-header section .song-column {
+    padding-left: 20px;
+  }
+  .page-content article section h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .page-content .page-header section .song-column .song {
+    font-size: 22px;
+  }
+  .page-content article.a6 section h2, .page-content article.a6 section h2:first-child, .page-content article.a7 section h2, .page-content article.a7 section h2:first-child, .page-content article.a12 section h2, .page-content article.a12 section h2:first-child {
+    padding-left: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

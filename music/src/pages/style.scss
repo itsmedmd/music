@@ -34,8 +34,8 @@ html, body {
             display: flex;
             justify-content: flex-end;
             align-items: center;
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             padding: 0 100px;
             background-color: rgba(0, 0, 0, 0.5);
 
@@ -98,12 +98,8 @@ html, body {
                     width: 200vw;
                     font-size: 24rem;
                     overflow: hidden;
-                    opacity: 0.05;
+                    opacity: 0.04;
                 }
-            }
-
-            &.header-bottom h1 {
-                word-break: break-all;
             }
         }
 
@@ -189,19 +185,102 @@ html, body {
     }
 }
 
-@media only screen and (max-width: 1280px) {
-    .page-content .page-header section {
-        padding: 0 50px;
+@media only screen and (min-width: 1921px) {
+    .page-content {
+        .go-back-to-homepage {
+            top: 15px; 
+            left: 15px;
+            padding: 30px;
+            font-size: 1.5rem;
+        }
 
-        .song-column {
-            margin-top: 8%;
+        .page-header section .song-column {
+            width: 600px;
+            padding: 60px 30px 60px 60px;
+
+            .song {
+                font-size: 36px;
+            }
+        }
+
+        article {
+            header {
+                h1 {
+                    font-size: 14rem;
+                }
+    
+                &.header-top {
+                    span {
+                        font-size: 10rem;
+                        margin-left: 36px;
+                    }
+    
+                    h1 {
+                        font-size: 36rem;
+                    }
+                }
+            }
+    
+            section h2 {
+                font-size: 3.5rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .page-content {
+        .page-header {
+            height: 960px;
+    
+            section {
+                padding: 0 50px;
+        
+                .song-column {
+                    margin-top: 8%;
+                }
+            }
+        }
+
+        article {
+            height: 960px;
         }
     }
 }
 
 @media only screen and (max-width: 1024px) {
-.page-content .page-header section {
-        justify-content: center;
+    .page-content {
+        .page-header section {
+            justify-content: center;
+        }
+
+        article {
+            .header-top h1 {
+                display: none;
+            }
+
+            section {
+                width: 100%;
+                align-items: flex-start;
+
+                h2 {  
+                    margin-top: 16px;
+                }
+            }
+    
+            aside {
+                width: 100%;
+                position: absolute;
+
+                img {
+                    bottom: 0;
+                }
+            }
+    
+            &.image-right section {
+                justify-content: flex-end;
+            }
+        }
     }
 }
 
@@ -212,11 +291,44 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
-    .page-content .page-header section {
-        flex-direction: column;
+    .page-content {
+        .page-header {
+            height: 768px;
 
-        .song-column:first-child {
-            margin-right: 0;
+            section {
+                flex-direction: column;
+        
+                .song-column:first-child {
+                    margin-right: 0;
+                }
+            }
+        }
+
+        article {
+            height: 768px;
+
+            section {
+                padding-top: 130px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .page-content article {
+        &.image-right, &.image-left {
+            section {
+                flex-direction: column;
+                justify-content: flex-start;
+
+                h2 {
+                    padding: 0 40px 0 40px;
+
+                    &:first-child {
+                        padding: 0 40px 20px 40px;
+                    }
+                }
+            }
         }
     }
 }
@@ -224,5 +336,61 @@ html, body {
 @media only screen and (max-width: 520px) {
     .page-content .page-header section .song-column {
         margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .page-content {
+        .page-header section {
+            padding: 0;
+
+            .song-column {
+                width: 100%;
+                padding-left: 50px;
+                margin-top: 60px;
+            }
+        }
+
+        article {
+            &.image-right, &.image-left {
+                &.a6, &.a7 {
+                    section {
+                        h2, h2:first-child {
+                            padding: 0 40px 20px 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .page-content {
+        .page-header section .song-column {
+            padding-left: 20px;
+        }
+
+        article section h2 {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .page-content {
+        .page-header section .song-column .song {
+            font-size: 22px;
+        }
+
+        article {
+            &.a6, &.a7, &.a12 {
+                section {
+                    h2, h2:first-child {
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
     }
 }
