@@ -1,9 +1,4 @@
 ---------------------general---------------------
-implement lazyloading
-
-maybe add youtube and website links to target _blank
-
-header when hover animation + link to the page part
 
 make navigation maybe
 
