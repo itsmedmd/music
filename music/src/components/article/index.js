@@ -7,7 +7,7 @@ export default function Article(props) {
     <article id={props.id} className={props.className}>
         {props.children}
         <aside>
-            <img className="lazyload" data-src={props.imgSrc} alt={props.imgAlt} />
+            <img className="lazyloadd" src={props.imgSrc} alt={props.imgAlt} />
         </aside>
     </article>
   );

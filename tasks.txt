@@ -1,4 +1,7 @@
 ---------------------general---------------------
+maybe remake button with intersectionobserver
+chrome, edge when re-enter header it doesnt go away
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
@@ -9,7 +12,6 @@ test horizontal, ios, samsung
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
-test ie
 ---------------------ie--------------------------
 
 gatsby build --prefix-paths

@@ -402,4 +402,49 @@ html, body {
     padding-left: 10px;
   }
 }
+
+/*IE10+ CSS here*/
+@media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .page-content .page-header {
+    height: 1080px;
+  }
+  .page-content article {
+    height: 1080px;
+    padding-bottom: 108px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-content article .header-bottom {
+    padding-top: 200px;
+  }
+  .page-content article.image-left {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .page-content article.a3 .header-bottom h1 {
+    font-size: 10rem;
+  }
+}
+
+@media only screen and (-ms-high-contrast: none) and (max-width: 1024px), only screen and (-ms-high-contrast: active) and (max-width: 1024px) {
+  .page-content article {
+    height: 900px;
+  }
+  .page-content article aside {
+    position: initial;
+  }
+  .page-content article aside img {
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (-ms-high-contrast: none) and (min-width: 768px) and (max-width: 1024px), only screen and (-ms-high-contrast: active) and (min-width: 768px) and (max-width: 1024px) {
+  .page-content article section {
+    padding-left: 180px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
