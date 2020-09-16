@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <div className="page-content">
-      <Link to=".." className="go-back-to-homepage">GO BACK TO HOME PAGE</Link>
+      <a href="https://www.deimantasbutenas.lt/projects/4" className="go-back-to-homepage">GO BACK TO HOME PAGE</a>
       <Link to="#page-start" className="go-back-to-start">Go to top</Link>
       <Header />
 

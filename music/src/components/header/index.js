@@ -6,6 +6,7 @@ export default function Header() {
 
   return (
     <header id="page-start" className="page-header" >
+        <img className="lazyload" src="bike-lowq.jpg" data-src="bike.jpg" alt="An urban city street view during the day in Japan"/>
         <section>
             <div className="song-column">
               <Song href="#1" number="01." text="Frederic" />

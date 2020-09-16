@@ -1,6 +1,8 @@
 ---------------------general---------------------
 maybe remake button with intersectionobserver
-chrome, edge when re-enter header it doesnt go away
+chrome, edge when re-entering to header it doesnt go away
+
+fix header background change to img
 
 ---------------------general---------------------
 
@@ -8,7 +10,6 @@ chrome, edge when re-enter header it doesnt go away
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
-test horizontal, ios, samsung
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
