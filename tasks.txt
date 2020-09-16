@@ -1,9 +1,4 @@
 ---------------------general---------------------
-maybe remake button with intersectionobserver
-chrome, edge when re-entering to header it doesnt go away
-
-fix header background change to img
-
 ---------------------general---------------------
 
 ---------------------aws-------------------------
